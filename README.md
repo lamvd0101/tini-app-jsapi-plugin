@@ -1,1 +1,1 @@
-# tini-app-jsapi-plugin
+# Tini App JSApi Plugin

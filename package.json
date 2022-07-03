@@ -1,0 +1,31 @@
+{
+  "name": "tini-app-jsapi-plugin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./dist",
+  "scripts": {
+    "prepare": "yarn clean && yarn build",
+    "clean": "yarn rimraf dist && yarn rimraf out",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@tiki.vn/tini-types": "github:tikivn/tini-types.git",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "14.x",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.3.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
