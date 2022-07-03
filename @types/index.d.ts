@@ -1,3 +1,3 @@
 declare namespace my {
-  export var request: () => void;
+  export const request: () => void;
 }
