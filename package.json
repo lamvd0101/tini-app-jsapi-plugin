@@ -8,7 +8,8 @@
     "clean": "yarn rimraf dist && yarn rimraf out",
     "build": "webpack",
     "watch": "webpack --watch",
-    "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "publish": "yarn clean && yarn build && npm publish"
   },
   "dependencies": {
     "typescript": "^4.6.4"
