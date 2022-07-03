@@ -97,10 +97,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tiki.vn/tini-types@github:tikivn/tini-types.git":
-  version "0.3.0"
-  resolved "https://codeload.github.com/tikivn/tini-types/tar.gz/dd31b0f2294d15d4bfa842d67ca8a46e3de1c8e6"
-
 "@types/eslint-scope@^3.7.3":
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.4.tgz#37fc1223f0786c39627068a12e94d6e6fc61de16"

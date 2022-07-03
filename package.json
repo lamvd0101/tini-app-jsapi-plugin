@@ -11,7 +11,6 @@
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@tiki.vn/tini-types": "github:tikivn/tini-types.git",
     "typescript": "^4.6.4"
   },
   "devDependencies": {
