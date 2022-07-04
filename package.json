@@ -1,6 +1,6 @@
 {
   "name": "tini-app-jsapi-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tini App JSApi Plugin is a typescript plugin.",
   "main": "./dist",
   "scripts": {
